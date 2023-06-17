@@ -45,10 +45,10 @@ app.post("/", function (req, res) {
           LNAME: subscribingUser.lastName,
         },
       });
-      //console.log(response);
+      console.log(response);
       return res.redirect("/success");
     } catch (e) {
-      //console.log(e);
+      console.log(e);
       return res.redirect("/failure");
     }
 
