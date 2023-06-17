@@ -7,7 +7,7 @@ const md5 = require("md5");
 const PORT = 3000;
 
 mailchimp.setConfig({
-  apiKey: "e914017a33523bc2380dc5c37dd15185-us21",
+  apiKey: "5d69e8b72af217cf8c0dcd4b1789f291-us21",
   server: "us21",
 });
 
